@@ -1,0 +1,50 @@
+/* Fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+/* Variáveis */
+:root {
+    --azul: #4EBFE9;
+    --cinza-claro: #c7c7c7;
+    --cinza-escuro: #464646;
+    --fonte-tabela: 'Recursive', sans-serif;
+}
+
+/* Definições universais */
+* {
+    font-family: var(--fonte-tabela);
+    color: var(--cinza-escuro);
+}
+
+/* Corpo e estrutura principal */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Definições da tabela */
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid var(--cinza-claro);
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Título */
+th {
+    background-color: var(--azul);
+    color: white;
+}
+
