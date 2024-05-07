@@ -1,45 +1,52 @@
-# Aula 1: Entendendo os tipos de dados
+# Aula 2: Criando uma tabela com HTML
 
-Vamos traçar caminhos para a criação de uma tabela.
+Durante essa aula, vamos abordar os tópicos:
 
-## Storytelling: unindo necessidades
+* Estrutura inicial do projeto;
+* Estrutura base de uma tabela com HTML;
 
-**Ana**, frequentemente se via perdida em meio a uma montanha de lições de casa, ao anotar suas tarefas na agenda, ela se confundia entre as disciplinas, e como possuía vários cadernos, um pra cada matéria, não conseguia identificar a disciplina equivalente de cada tarefa.
+## Contexto
 
-**Pedro**, o esportista do grupo, também enfrentava problemas semelhantes. Entre treinos e compromissos extracurriculares, mal tinha tempo para revisar suas anotações, então frequentemente perdia os prazos de entrega.
+Primeiro, vamos anotar as nossas tarefas semanais:
 
-**Júlia**, a artista, se esforçava para equilibrar suas paixões criativas com as demandas da escola. No entanto, ela fazia suas lições em folhas de fichário e sempre acabava se confundindo se já havia feito aquela lição, ou não, gerando um retrabalho por diversas vezes.
+* Português - páginas 30 a 35, exercícios 1 a 20 (20/07/2024)
+* Matemática - capítulo 5, exercícios 1 a 10 (22/07/2024)
+* Ciências - páginas 50 a 55, exercícios 1 a 15 (23/07/2024)
+* História - capítulo 3, exercícios 1 a 5 (24/07/2024)
+* Inglês - páginas 40 a 45, exercícios 1 a 10 (25/07/2024)
 
-Certo dia, eles perceberam que dedicar mais tempo à organização prévia de suas tarefas ajuda a evitar retrabalho e a cumprir prazos com mais eficiência, então surgiu a ideia de um planner.
+## Problema
 
-Ao pesquisar na internet, encontraram várias versões de planner de estudos, no entanto os que atendiam suas necessidades eram sempre pagos, então decidiram unir seus conhecimentos e desenvolver um planner personalizado, que atendesse tudo o que eles precisavam.
+Precisamos de um espaço que possa armazenar esses dados de forma organizada.
 
 
-## Coleta de dados
+## Solução
 
-Ana:
-* identificar facilmente a **disciplina** de cada tarefa;
+Vamos criar uma tabela, onde podemos manter todas as nossas tarefas organizadas.
 
-Pedro:
-* é **esportista**;
-* ter de forma clara os **prazos** de cada tarefa;
 
-Júlia: 
-* é **artista**;
-* checar quais tarefas já foram **feitas**;
+## Teoria
 
-## Limpeza de dados
+Uma tabela é uma estrutura de dados que organiza informações em linhas e colunas. Ela é amplamente utilizada para exibir dados de forma organizada e legível.
 
-Os dados de esporte e hobbies serão excluídos, pois não influenciam na resolução do problema.
+Em HTML, podemos dividir a estrutura da tabela com algumas tags principais:
 
-## Análise dos tipos de dados
+* `<table>`: Essa é a tag principal que define a estrutura da tabela. Ela envolve todo o conteúdo da tabela, incluindo as linhas e colunas.
 
-* String: texto (Disciplina e Tarefa);
-* Date: data (Prazo);
-* Booleano: verdadeiro/falso (Feito);
+* `<tr>`: Essa tag representa uma **linha** na tabela. Dentro dela, você pode adicionar células de dados ou células de cabeçalho.
 
-## Desafio
+* `<th>`: Essa tag é usada para criar **células de cabeçalho** na tabela. Geralmente, as células de cabeçalho são usadas para rotular as colunas ou fornecer informações adicionais sobre os dados na tabela. Por exemplo, se você estiver criando uma tabela de tarefas, as células de cabeçalho podem ser "Tarefa", "Data de Vencimento" e assim por diante.
 
-Faça uma pesquisa na sua sala de aula e identifique se existem dificuldades de planejamento / organização dos estudantes ao entregar suas tarefas. Se sim, anote todos os pontos relatados.
-Após coletar os dados, revise-os excluindo o que você acha que não faz sentido, e grife os pontos que você acredita que possa ajudá-los.
-Feito isso, pense em um formato de planner que possa se adequar diante das suas necessidades, quais campos você adicionaria nele (ou seja, quais informações seriam relevantes pra você) e reflita sobre o tipo de dado de cada um (texto, número, data, e-mail, checkbox, etc)
+* `<td>`: Essa tag é usada para criar **células de dados** na tabela. As células de dados contêm as informações reais que você deseja exibir na tabela. Por exemplo, se você estiver criando uma tabela de tarefas, as células de dados podem conter os nomes das tarefas, as datas de vencimento, etc.
+
+## PARA SABER MAIS: `thead` e `tbody`
+
+A tag `<tbody>` e a tag `<thead>` são usadas para organizar o conteúdo de uma tabela HTML de forma mais semântica e estruturada.
+
+A tag `<thead>` é usada para agrupar as células de cabeçalho da tabela. Geralmente, as células de cabeçalho são usadas para rotular as colunas ou fornecer informações adicionais sobre os dados na tabela. Por exemplo, se você estiver criando uma tabela de tarefas, as células de cabeçalho podem ser "Tarefa", "Data de Vencimento" e assim por diante. Ao envolver as células de cabeçalho com a tag `<thead>`, você está indicando que essas células são os cabeçalhos da tabela.
+
+A tag `<tbody>` é usada para agrupar as células de dados da tabela. As células de dados contêm as informações reais que você deseja exibir na tabela. Por exemplo, se você estiver criando uma tabela de tarefas, as células de dados podem conter os nomes das tarefas, as datas de vencimento, etc. Ao envolver as células de dados com a tag `<tbody>`, você está indicando que essas células são os dados da tabela.
+
+A utilização dessas tags (`<thead>` e `<tbody>`) é opcional, mas é uma prática recomendada para melhorar a legibilidade e a acessibilidade da tabela. Além disso, elas também podem ser úteis para estilizar diferentes partes da tabela usando CSS.
+
+Aqui está um exemplo de como as tags `<thead>` e `<tbody>` podem ser usadas em uma tabela HTML:
