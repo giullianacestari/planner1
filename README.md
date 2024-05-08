@@ -1,34 +1,41 @@
-# Aula 3: Estilizando a tabela com CSS
+# Aula 4: Adicionando novas tarefas
 
 Durante essa aula, vamos abordar os tópicos:
 
-* Propriedades de espaçamento, tamanho e bordas;
-* Importando fontes externas;
-* Paleta de cores e fontes;
-* Flexbox e itens flexíveis;
+* Criar um novo botão para adicionar tarefas;
+* Estilizar o botão;
+* Analisar interatividade com JS;
 
 ## Contexto
 
-O conteúdo da tabela foi criado, agora precisamos melhorar a sua exibição no site.
+Temos uma tabela com tarefas, no entanto não conseguimos adicionar novas tarefas.
 
 ## Problema
 
-* **Visualização**: A tabela está muito pequena, difícil de ler e descentralizada.
-
-* **Cores e fontes**: Queremos personalizar a nossa página, criando o nosso próprio estilo e dando destaque em áreas específicas.
-
-* **Flexbox**: Precisamos posicionar a tabela ao meio da página.
+Precisamos de uma forma simples e dinâmica que adicione novas tarefas.
 
 ## Solução
 
-**Visualização da tabela**:
-* `border` e `border-collapse` para facilitar a visualização dos campos;
-* aumentar o tamanho e inserir espaçamento com `margin`, `padding`, `width`;
+Vamos criar um botão, que é capaz de interagir com a página e futuramente adicionar novas tarefas.
 
 
 ## Teoria
 
-* `border` e `border-collapse`: define como as bordas de uma tabela devem ser tratadas quando elas se encontram.
+HTML
+* criar ``button``
+* ``onclick`` no botão
+
+CSS
+* input
+
+HTML
+* tag ``script``
+* adicionar ``id=tabelaTarefas`` na ``table``
+
+JS
+* criar uma nova ``function``
+* ``buscar elemento por id``
+* ver no ``console``
 
 
 

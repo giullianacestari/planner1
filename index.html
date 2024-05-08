@@ -4,34 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planner</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="container">
-        <table>
+        <table id="tabelaTarefas">
             <tr>
                 <th>Disciplina</th>
-                <th>Tarefa</th>
+                <th>Descrição</th>
                 <th>Prazo</th>
                 <th>Status</th>
             </tr>
             <tr>
-                <td>Português</td>
-                <td>páginas 30 a 35, exercícios 1 a 20</td>
-                <td>20/07/2024</td>
+                <td>Tarefa 1</td>
+                <td>Descrição da Tarefa 1</td>
                 <td></td>
-            </tr>
-
-            <tr>
-                <td>Matemática</td>
-                <td>Capítulo 3, exercícios 1 a 10</td>
-                <td>20/07/2024</td>
                 <td></td>
             </tr>
         </table>
+
+        <button onclick="adicionarLinha()">+</button>
     </main>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
