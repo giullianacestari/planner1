@@ -1,18 +1,16 @@
-# Aula 4: Adicionando novas tarefas
+# Aula 5: Exibindo tarefas com JS
 
 Durante essa aula, vamos abordar os tópicos:
 
-* Criar um novo botão para adicionar tarefas;
-* Estilizar o botão;
-* Analisar interatividade com JS;
+* 
 
 ## Contexto
 
-Temos uma tabela com tarefas, no entanto não conseguimos adicionar novas tarefas.
+Temos uma tabela e um botão de adicionar, no entanto ele ainda não funciona como queremos.
 
 ## Problema
 
-Precisamos de uma forma simples e dinâmica que adicione novas tarefas.
+Precisamos dar funcionalidade ao botão, de forma em que possa adicionar tarefas na planilha.
 
 ## Solução
 
